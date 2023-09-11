@@ -151,13 +151,22 @@ section{
     margin-right: 50px;
 }
 
-.card{
+.card__border{
     border: 1px solid #DBDBDD;
+}
+
+.card__1{
+    padding-right: 25px;
 }
 
 .card__header{
     text-align: center;
     padding: 10px;
+    border-bottom: 1px solid #DBDBDD;
+}
+
+.card__description{
+    padding: 30px;
 }
 
 .card-icon{
@@ -166,4 +175,12 @@ section{
 
 .card__price{
     font-weight: bold;
+}
+
+.border-slice{
+    border-bottom: 1px solid #DBDBDD;
+    padding: 30px 0px;
+    -webkit-box-decoration-break: slice;
+    -o-box-decoration-break: slice;
+    box-decoration-break: slice;
 }
