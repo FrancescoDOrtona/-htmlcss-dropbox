@@ -111,14 +111,13 @@ img{
 }
 
 .description-content{
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    gap: 35px;
 }
 
 .free-trial-button{
-    margin: 35px 0px;
-}
-
-.free-trial-button> a{
     padding: 10px;
 }
 
