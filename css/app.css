@@ -62,7 +62,7 @@ h3{
 }
 
 .section-title{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .normal-text{
@@ -300,10 +300,25 @@ section{
 
 /* 4° Section */
 
+.section-tools{
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
 .tools{
     padding: 20px;
 }
 
 .tools__title{
     padding-bottom: 40px;
+}
+
+/* 5° Section */
+
+.count-section{
+    margin-bottom: 90px;
+}
+
+.more-link{
+    display: block;
+    padding: 60px 0px;
 }
