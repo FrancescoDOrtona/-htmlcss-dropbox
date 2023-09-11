@@ -163,6 +163,7 @@ section{
 /* Card */
 .card__border{
     border: 1px solid #DBDBDD;
+    height: 100%;
 }
 
 .card__1{
