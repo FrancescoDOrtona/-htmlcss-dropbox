@@ -62,11 +62,11 @@ img{
 }
 
 .col-4{
-    flex-basis: 100% / 12 * 4;
+    flex-basis: calc(100% / 12 * 4);
 }
 
 .col-8{
-    flex-basis: 100% / 12 * 8;
+    flex-basis: calc(100% / 12 * 8);
 }
 
 /* Header nav-bar */
