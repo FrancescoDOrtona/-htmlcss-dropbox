@@ -127,6 +127,11 @@ section{
 
 .hero{
     padding-top: 100px;
+    position: relative;
+}
+
+.hero__img{
+    position: relative;
 }
 
 .hero__description{
@@ -153,6 +158,14 @@ section{
 .description-icon{
     font-size: 44px;
     flex-shrink: 0;
+}
+
+.bottom-white{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 /* 2° Section */
