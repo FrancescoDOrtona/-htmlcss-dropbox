@@ -370,3 +370,25 @@ section{
 .bg-color-red{
     background-color: #FF1C1C;
 }
+
+.central{
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+
+.central-img{
+    object-fit: contain;
+    width: 60%; 
+}
+
+.central-paragraph{
+    padding: 60px 0px;
+}
+
+.border-slice-top{
+    border-top: 1px solid #DBDBDD;
+    padding: 30px 0px;
+    -webkit-box-decoration-break: slice;
+    -o-box-decoration-break: slice;
+    box-decoration-break: slice;
+}
