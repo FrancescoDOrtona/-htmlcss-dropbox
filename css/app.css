@@ -34,6 +34,14 @@ ul, ol, menu{
     margin: 0 auto;
 }
 
+/* Utility Class */
+
+.button{
+    background-color: #0061FF;
+    line-height: 20px;
+    padding: 10px;
+}
+
 /* row & col */
 
 .row{
@@ -45,5 +53,13 @@ ul, ol, menu{
 
 .nav-bar__content{
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-bar__items{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-items: center;
 }
