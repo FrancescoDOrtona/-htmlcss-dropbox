@@ -93,6 +93,10 @@ h3{
     flex-basis: calc(100% / 12 * 4);
 }
 
+.col-6{
+    flex-basis: calc(100% / 12 * 6);
+}
+
 .col-8{
     flex-basis: calc(100% / 12 * 8);
 }
@@ -321,4 +325,48 @@ section{
 .more-link{
     display: block;
     padding: 60px 0px;
+}
+
+/* 6° Section */
+
+
+.partnership__cont{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.partnership .col-6{
+    padding: 30px;
+}
+.partnership__img{
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.partnership__img>img{
+    filter: invert(1);
+    object-fit: contain;
+    width: 60%;
+}
+
+.bg-color-green{
+    background-color: #A2D39B; 
+}
+
+.shadow{
+    box-shadow: inset 0px 0px 0px 10px #ffffffa4;
+}
+
+.bg-color-bordeaux{
+    background-color: #61082B;
+}
+
+.bg-color-azure{
+    background-color: #0093CE;
+}
+
+.bg-color-red{
+    background-color: #FF1C1C;
 }
