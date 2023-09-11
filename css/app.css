@@ -169,6 +169,14 @@ section{
     padding-right: 25px;
 }
 
+.card__2{
+    padding: 0px 12.5px;
+}
+
+.card__3{
+    padding-left: 25px;
+}
+
 .card__header{
     text-align: center;
     padding: 10px;
