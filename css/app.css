@@ -59,6 +59,11 @@ img{
     color: white;
 }
 
+.underline-blue{
+    text-decoration: underline;
+    color: #7272F6;
+}
+
 /* row & col */
 
 .row{
@@ -144,4 +149,21 @@ section{
 
 .subscription__button-1{
     margin-right: 50px;
+}
+
+.card{
+    border: 1px solid #DBDBDD;
+}
+
+.card__header{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-icon{
+    margin-right: 5px;
+}
+
+.card__price{
+    font-weight: bold;
 }
