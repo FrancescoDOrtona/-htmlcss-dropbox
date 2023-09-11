@@ -371,6 +371,18 @@ section{
     background-color: #FF1C1C;
 }
 
+.bg-color-red-2{
+    background-color: #D5001F;
+}
+
+.bg-color-blue{
+    background-color: #0D2481;
+}
+
+.bg-color-yellow{
+    background-color: #FFD830;
+}
+
 .central{
     background-color: #F5F5F5;
     padding: 50px;
