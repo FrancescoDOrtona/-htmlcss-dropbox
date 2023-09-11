@@ -44,6 +44,10 @@ img{
     background-color: #B4D0E7;
 }
 
+.section-title{
+    font-size: 30px;
+}
+
 .normal-text{
     font-size: 15px;
 }
@@ -70,6 +74,10 @@ img{
     flex-basis: calc(100% / 12 * 8);
 }
 
+.col-12{
+    flex-basis: 100%;
+}
+
 /* Header nav-bar */
 
 .nav-bar__content{
@@ -87,7 +95,9 @@ img{
 
 /* Main Content */
 
-
+section{
+    margin-bottom: 100px;
+}
 /* Hero */
 
 .hero__title{
@@ -97,7 +107,7 @@ img{
 }
 
 .hero{
-    padding: 100px 0px;
+    padding-top: 100px;
 }
 
 .hero__description{
@@ -124,4 +134,14 @@ img{
 .description-icon{
     font-size: 44px;
     flex-shrink: 0;
+}
+
+/* 2° Section */
+
+.subscription__button{
+    padding: 70px 0px;
+}
+
+.subscription__button-1{
+    margin-right: 50px;
 }
