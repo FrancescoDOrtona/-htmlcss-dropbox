@@ -104,3 +104,25 @@ img{
     display: flex;
     flex-wrap: nowrap;
 }
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description-content{
+    flex-grow: 1;
+}
+
+.free-trial-button{
+    margin: 35px 0px;
+}
+
+.free-trial-button> a{
+    padding: 10px;
+}
+
+.description-icon{
+    font-size: 44px;
+    flex-shrink: 0;
+}
