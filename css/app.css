@@ -61,6 +61,14 @@ img{
     flex-wrap: wrap;
 }
 
+.col-4{
+    flex-basis: 100% / 12 * 4;
+}
+
+.col-8{
+    flex-basis: 100% / 12 * 8;
+}
+
 /* Header nav-bar */
 
 .nav-bar__content{
@@ -84,8 +92,14 @@ img{
 h1{
     font-size: 56px;
     font-weight: 800;
+    margin-bottom: 50px;
 }
 
 .hero{
     padding: 100px 0px;
+}
+
+.hero__description{
+    display: flex;
+    flex-wrap: nowrap;
 }
