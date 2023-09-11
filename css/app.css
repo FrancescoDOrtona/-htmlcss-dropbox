@@ -52,6 +52,7 @@ img{
     background-color: #0061FF;
     line-height: 20px;
     padding: 5px 10px;
+    color: white;
 }
 
 /* row & col */
@@ -89,7 +90,7 @@ img{
 
 /* Hero */
 
-h1{
+.hero__title{
     font-size: 56px;
     font-weight: 800;
     margin-bottom: 50px;
