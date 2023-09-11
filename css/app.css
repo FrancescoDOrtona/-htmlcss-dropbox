@@ -169,12 +169,31 @@ section{
     padding: 30px;
 }
 
+.card__title h3{
+    font-size: 18px;
+    padding-bottom: 20px
+}
+
+.card__title{
+    margin-bottom: 40px;
+}
+
+.card__list>li{
+    padding: 12px 0px;
+}
+
 .card-icon{
     margin-right: 5px;
 }
 
 .card__price{
+    display: block;
     font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card__button{
+    text-align: center;
 }
 
 .border-slice{
@@ -183,4 +202,8 @@ section{
     -webkit-box-decoration-break: slice;
     -o-box-decoration-break: slice;
     box-decoration-break: slice;
+}
+
+.checkmark{
+    color: #0061FF;
 }
