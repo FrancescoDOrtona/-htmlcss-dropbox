@@ -34,7 +34,15 @@ ul, ol, menu{
     margin: 0 auto;
 }
 
+img{
+    width: 100%;
+}
+
 /* Utility Class */
+
+.bg-color-turquoise{
+    background-color: #B4D0E7;
+}
 
 .normal-text{
     font-size: 15px;
@@ -53,7 +61,7 @@ ul, ol, menu{
     flex-wrap: wrap;
 }
 
-/* Header nav bar */
+/* Header nav-bar */
 
 .nav-bar__content{
     justify-content: space-between;
@@ -66,4 +74,18 @@ ul, ol, menu{
     flex-wrap: nowrap;
     gap: 40px;
     align-items: center;
+}
+
+/* Main Content */
+
+
+/* Hero */
+
+h1{
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.hero{
+    padding: 100px 0px;
 }
