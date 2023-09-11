@@ -15,6 +15,10 @@ a{
     cursor: pointer;
 }
 
+ul, ol, menu{
+    list-style: none;
+}
+
 .container{
     max-width: 100%;
     margin: 0 auto;
@@ -35,4 +39,11 @@ a{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Header nav bar */
+
+.nav-bar__content{
+    justify-content: space-between;
+    padding: 20px;
 }
