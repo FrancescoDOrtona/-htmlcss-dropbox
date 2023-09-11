@@ -36,10 +36,14 @@ ul, ol, menu{
 
 /* Utility Class */
 
+.normal-text{
+    font-size: 15px;
+}
+
 .button{
     background-color: #0061FF;
     line-height: 20px;
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 /* row & col */
@@ -54,7 +58,7 @@ ul, ol, menu{
 .nav-bar__content{
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .nav-bar__items{
