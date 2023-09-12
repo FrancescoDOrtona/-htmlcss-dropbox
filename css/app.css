@@ -62,7 +62,7 @@ h3{
 }
 
 .section-title{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .normal-text{
@@ -423,4 +423,33 @@ section{
     background-color: white;
     color: black;
     padding: 12px 46px;
+}
+
+/* 8° Section */
+
+.faq{
+    margin-bottom: 135px;
+}
+
+.faq__content{
+    flex-direction: column;
+}
+
+.col-faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.faq__title{
+    padding-bottom: 70px;
+}
+
+.faq__icon{
+    font-size: 12px;
+}
+
+.faq__border-bottom{
+    border-bottom: 1px solid gray;
 }
