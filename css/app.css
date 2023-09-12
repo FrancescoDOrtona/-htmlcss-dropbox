@@ -182,6 +182,10 @@ section{
 
 /* 2° Section */
 
+#month, #annual{
+    margin-right: 10px;
+}
+
 .subscription__button{
     padding: 70px 0px;
 }
