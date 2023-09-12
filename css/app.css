@@ -470,6 +470,8 @@ footer{
 
 .footer__content{
     justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 100px;
 }
 
 .footer__content-title{
@@ -479,4 +481,28 @@ footer{
 
 .footer__text{
     line-height: 250%;
+}
+
+.footer__language{
+    padding-top: 30px;
+    display: inline-block;
+}
+
+#language{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    padding: 20px 2px;
+    cursor: pointer;
+    color: white;
+}
+
+.lang-icon{
+    color: white;
+    display: inline-block;
+}
+
+option{
+    color: black;
+    cursor: pointer;
 }
