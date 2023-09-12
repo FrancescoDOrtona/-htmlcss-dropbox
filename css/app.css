@@ -245,7 +245,12 @@ section{
 
 .card__button{
     text-align: center;
-    margin: 20px 0px;
+    margin: 30px 0px;
+    padding: 12px;
+}
+
+.card__buy-now{
+    padding: 20px 0px;
 }
 
 
