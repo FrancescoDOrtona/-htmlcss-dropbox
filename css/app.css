@@ -497,7 +497,8 @@ footer{
 
 .footer__language{
     padding-top: 30px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 #language{
