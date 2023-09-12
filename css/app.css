@@ -89,6 +89,10 @@ h3{
     flex-wrap: wrap;
 }
 
+.col-2{
+    flex-basis: calc(100% / 12 * 2);    
+}
+
 .col-4{
     flex-basis: calc(100% / 12 * 4);
 }
@@ -448,8 +452,22 @@ section{
 
 .faq__icon{
     font-size: 12px;
+    cursor: pointer;
 }
 
 .faq__border-bottom{
     border-bottom: 1px solid gray;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer__content{
+    justify-content: space-between;
 }
