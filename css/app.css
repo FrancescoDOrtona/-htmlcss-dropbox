@@ -496,7 +496,7 @@ footer{
 }
 
 .footer__language{
-    padding-top: 30px;
+    padding-top: 40px;
     display: flex;
     align-items: center;
 }
@@ -505,7 +505,7 @@ footer{
     border: none;
     background-color: transparent;
     position: relative;
-    padding: 20px 2px;
+    padding: 0px 3px;
     cursor: pointer;
     color: white;
 }
