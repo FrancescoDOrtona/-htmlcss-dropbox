@@ -74,6 +74,8 @@ h3{
     line-height: 20px;
     padding: 5px 10px;
     color: white;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .underline-blue{
@@ -181,16 +183,33 @@ section{
 
 /* 2° Section */
 
-#month, #annual{
-    margin-right: 10px;
-}
-
-.subscription__button{
+.subscription__section{
+    display: flex;
+    gap: 40px;
     padding: 70px 0px;
 }
 
-.subscription__button-1{
-    margin-right: 50px;
+.subscription__button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-button{
+    appearance: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border:2px solid gray;
+    border-radius: 50%;
+}
+
+.radio-button:hover{
+    background-color: #DBDBDD;
+}
+
+input:checked{
+    border: 3px solid #0061FF;
 }
 
 /* Card */
