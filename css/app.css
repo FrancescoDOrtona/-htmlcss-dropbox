@@ -169,7 +169,8 @@ section{
 
 .description-icon{
     font-size: 44px;
-    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 .bottom-white{
