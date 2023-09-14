@@ -363,18 +363,20 @@ input:checked{
 
 /* 6° Section */
 
+.partnership{
+    flex-wrap: nowrap;
+}
 
 .partnership__cont{
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
 }
 
 .partnership .col-6{
     padding: 30px;
 }
 .partnership__img{
-    min-height: 260px;
+    aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
 }
@@ -382,7 +384,7 @@ input:checked{
 .partnership__img>img{
     filter: invert(1);
     object-fit: contain;
-    width: 60%;
+    width: 50%;
 }
 
 .bg-color-green{
@@ -420,6 +422,7 @@ input:checked{
 .central{
     background-color: #F5F5F5;
     padding: 50px;
+    height: 100%;
 }
 
 .central-img{
@@ -433,7 +436,7 @@ input:checked{
 
 .border-slice-top{
     border-top: 1px solid #DBDBDD;
-    padding: 30px 0px;
+    padding: 60px 0px;
     -webkit-box-decoration-break: slice;
     -o-box-decoration-break: slice;
     box-decoration-break: slice;
