@@ -140,11 +140,10 @@ section{
 
 .hero{
     padding-top: 100px;
-    position: relative;
 }
 
 .hero__img{
-    position: relative;
+    margin-bottom: -70px;
 }
 
 .hero__description{
